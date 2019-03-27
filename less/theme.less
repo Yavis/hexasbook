@@ -7,15 +7,20 @@ body {
   background-size: 1200px auto;
   .left-bg, .right-bg {
     width: 100%;
-    height:100%;
-    max-height: 100%;
+    height: 100%;
     max-width: calc((100% - 1200px) / 2);
+    position: fixed;
+    top: 0;
   }
   .left-bg {
-    background: url('/themes/hexasbook/img/background-left.jpg')
+    background: url('/themes/hexasbook/img/background-left.jpg') repeat-y;
+    background-size: cover;
+    left: 0;
   }
   .right-bg {
-    background: url('/themes/hexasbook/img/background-right.jpg')
+    background: url('/themes/hexasbook/img/background-right.jpg') repeat-y;
+    background-size: cover;
+    right: 0;
   }
   .panel {
     box-shadow: 0 0 5px 5px #f5d988b3;
