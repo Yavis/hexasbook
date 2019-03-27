@@ -28,6 +28,10 @@
                     <?= \humhub\modules\user\widgets\AccountTopMenu::widget(); ?>
                 </div>
 
+                <div class="topbar-brand visible-xs">
+                    <?= \humhub\widgets\SiteLogo::widget(); ?>
+                </div>
+
                 <div class="notifications pull-right">
                     <?= \humhub\widgets\NotificationArea::widget(); ?>
                 </div>
